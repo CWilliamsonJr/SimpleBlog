@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Web.Mvc;
 
-namespace SImpleBlog.Infrastructure
+namespace SimpleBlog.Infrastructure
 {
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
     public class SelectedTabAttribute : ActionFilterAttribute

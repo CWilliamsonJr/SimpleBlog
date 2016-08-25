@@ -1,5 +1,5 @@
 ﻿using System.Web.Mvc;
-using SImpleBlog.Infrastructure;
+using SimpleBlog.Infrastructure;
 
 namespace SimpleBlog.Areas.Admin.Controllers
 {
