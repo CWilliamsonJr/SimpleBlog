@@ -1,7 +1,7 @@
 ﻿
 using System.ComponentModel.DataAnnotations;
 
-namespace SImpleBlog.ViewModels
+namespace SimpleBlog.ViewModels
 {
     public class AuthLogin
     {

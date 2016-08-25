@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using System.Web.Security;
-using SImpleBlog.ViewModels;
+using SimpleBlog.ViewModels;
 
-namespace SImpleBlog.Controllers
+namespace SimpleBlog.Controllers
 {
     public class AuthController : Controller
     {

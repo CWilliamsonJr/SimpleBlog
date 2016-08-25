@@ -1,12 +1,8 @@
-﻿using SImpleBlog.Controllers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using System.Web.Routing;
+using SimpleBlog.Controllers;
 
-namespace SImpleBlog
+namespace SimpleBlog
 {
     public class RouteConfig
     {

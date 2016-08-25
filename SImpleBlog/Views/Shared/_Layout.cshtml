@@ -1,4 +1,4 @@
-﻿
+﻿@using System.Web.Optimization
 @{
     Layout = null;
 }
@@ -9,6 +9,7 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title - Simple Blog</title>
+    @Styles.Render("~/styles")
 </head>
 <body>
     <header>
@@ -28,6 +29,7 @@
         {
             
             <a href="@Url.RouteUrl("login")">Login</a>
+            <i class="glyphicon glyphicon-plus"></i>
         }
 
 
@@ -36,7 +38,7 @@
         <a href="@Url.RouteUrl("login")">Login</a>
     </header>
     @RenderBody()
-
+    @Scripts.Render("~/scripts")
     @RenderSection("Scripts", false)
 </body>
 </html>
