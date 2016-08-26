@@ -1,6 +1,4 @@
 ﻿
-
-
 using System.Data;
 using FluentMigrator;
 
